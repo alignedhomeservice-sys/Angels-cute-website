@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lost?</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Nunito:wght@600;800&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  background:#fdf6e9;
+  font-family:'Patrick Hand', cursive;
+  color:#333;
+}
+
+.wrapper{
+  max-width:700px;
+  margin:40px auto;
+  padding:20px;
+}
+
+.poster{
+  background:#fffdf7;
+  border:3px dashed #333;
+  padding:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,.15);
+  transform:rotate(-1deg);
+}
+
+h1{
+  text-align:center;
+  font-size:42px;
+  margin:0;
+}
+
+.sub{
+  text-align:center;
+  font-size:20px;
+  margin:5px 0 15px;
+}
+
+.photo{
+  text-align:center;
+  margin:15px 0;
+}
+
+.photo img{
+  width:280px;
+  border:8px solid white;
+  box-shadow:0 6px 20px rgba(0,0,0,.2);
+  transform:rotate(2deg);
+}
+
+.section{
+  font-size:22px;
+  line-height:1.6;
+  margin-top:10px;
+}
+
+ul{
+  margin-top:5px;
+}
+
+.bottom{
+  margin-top:25px;
+  border-top:2px dashed #333;
+  padding-top:15px;
+  font-size:22px;
+}
+
+.tabs{
+  margin-top:20px;
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  font-size:16px;
+}
+
+.tab{
+  border:1px dashed #333;
+  padding:8px 12px;
+  margin-top:10px;
+}
+</style>
+</head>
+
+<body>
+<div class="wrapper">
+  <div class="poster">
+
+    <h1>HAVE YOU SEEN THIS WOMAN?</h1>
+    <div class="sub">Last seen being adorable and slightly grumpy.</div>
+
+    <div class="photo">
+      <img src="angel.jpg" alt="Angel">
+    </div>
+
+    <div class="section">
+      <strong>Description:</strong>
+      <ul>
+        <li>Excellent mom</li>
+        <li>Excellent cook</li>
+        <li>Kind, steady, and warm</li>
+        <li>Loves mushrooms, water, and nature</li>
+        <li>Sexy as f</li>
+        <li>Yes, again — sexy as f</li>
+        <li>The epitome of feminine glory</li>
+      </ul>
+    </div>
+
+    <div class="bottom">
+      She’s not lost.  
+      I just wanted everyone to know how awesome my girlfriend is.
+      <br><br>
+      If found: you can f right off.  
+      <br><br>
+      She’s my woman.
+    </div>
+
+    <div class="tabs">
+      <div class="tab">Sexy as f</div>
+      <div class="tab">Mine</div>
+      <div class="tab">Grumpy Angel</div>
+      <div class="tab">Taken</div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
